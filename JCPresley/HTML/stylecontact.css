@@ -1,0 +1,122 @@
+body, head, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    width: 320px;
+    background-color: #fff;
+    color: #fff;
+    padding: 5px;
+}
+
+
+.companyimage {
+    width: 280px;
+    height: 150px;
+    margin-top: 0;
+}
+
+.side-panel {
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 60%;
+}
+
+.buttons button {
+    border: none;
+    display: block;
+    background-color: #ce3165;
+    color: #fdfbfb;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    color: #000;
+    background-color: #fff;
+    transition-duration: 0.25s;
+}
+
+.side-panel a {
+    text-decoration: none;
+}
+
+.social-panel {
+    margin-top: 100%;
+    margin-left: 25px;
+    padding-top: 40px;
+}
+
+
+
+.buttons2 button, img {
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+    bottom: 0;
+    left: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.contactsection{
+    margin-left: 45%;
+    margin-top: 15%;
+}
+
+.contactsection2{
+    margin-left: 45%;
+    margin-top: 0%;
+ 
+}
+
+.contacttext{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+  
+}
+.contactbuttons button{
+    margin-left: 5%;
+    margin-top: 5%;
+    border: none;
+    display: block;
+    background-color: #ce3165;
+    color: #fdfbfb;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.contactbuttons button:hover{
+    height: 50px;
+    width: 180px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
