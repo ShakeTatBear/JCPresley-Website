@@ -40,12 +40,16 @@ body{
     width: 280px;
     height: 150px;
     margin-top: 0;
+    padding-right: 15px;
+    margin-left: 15px
 }
 
 .side-panel {
     width: 150px;
-    margin-left: 75px;
-    margin-top: 60%;
+position: absolute;
+margin-left: 75px; 
+top: 35%;
+bottom: 65%;
 }
 
 .buttons button {
@@ -75,22 +79,20 @@ button:hover {
 }
 
 .social-panel {
-    margin-top: 90%;
- 
+    position: absolute;
     margin-left: 25px;
-
-    padding-top: 30%;
+    bottom:0%;
+    left: 35px;
+    
 }
 
 
 
-.buttons2 button, img {
+.buttons2 button{
     border: none;
-    height: 30px;
-    width: 30px;
-    margin-left: 25px;
-    bottom: 0;
-    left: 0;
+
+    padding-right: 15px;
+    background-color: white;
 }
 
 button:hover {
@@ -98,21 +100,45 @@ button:hover {
 }
 
 .homeimages{
+
+    animation: deckSlide;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
     display: block;
-    margin-left: 19.5%;
-    min-width: 600px;
-    left: 50%;
-    top:  50%;
-
-   
-}
-
-.homeimages img{
+    float: right;
     margin-top: 20px;
     margin-bottom: 20px;
     position: relative;
+    margin-left: 425px;
+    align-items: center;
+}
+/* animated for later
+@keyframes deckSlide {
+    from{
+        display:none;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 1000px;
+        filter: blur(25px);
+    }
+    to{
+        display: block;
+        float: right;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        margin-left: 425px;
+        align-items: center;
+    }
+}
+*/
+
+.homeimages img{
+  
+
     object-fit:cover;
-   
     height: 340px;
     width: 340px;
     border-radius: 20px;

@@ -1,50 +1,64 @@
 <!DOCTYPE html>
-<html>
-  
+<html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="https://kit.fontawesome.com/be2922367a.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap"
+      rel="stylesheet"
+    />
+
     <title>JCPresley</title>
     <link rel="stylesheet" href="stylecontact.css" />
+    
   </head>
-
 
   <body>
 
-    <div class="contactsection">
-        <div class="contacttext">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp Contact us! </div>
-        <br><br>
-     
+
+   
+
+    <div class="background"></div>
+
+    <div class="contact">Contact us!</div>
+
+    <div class="submitinfo">
+      <button type="button" id="mybutton" >Submit</button>
+    </div>
+
+    <div class="info">
+
+      <div class="infoboxes">
+    <form>
+      <input type="text" Id="text1"  placeholder="first name" required>
+
+      <input  type="text" Id="text2" placeholder="last name"required>
+
+      <input  type="email" Id="text3" placeholder="Email" required>
+
+      <input type="tel" Id="text4" placeholder="Phone Number" required >
+      
+      <input  type="text" Id="text5" placeholder="Message" required >
+
+    
+
+    </form>
+
+   
+  </div>
+
+
  
-    </div>
-
-    <div class="contactsection2">
-
-        <label for="fname">First name:</label>
-        <input type="text" id="fname" name="fname" placeholder="first" required>
-        <br><br>
-
-        <label for="lname">Last name:</label>
-        <input type="text" id="lname" name="lname" placeholder="last" required>
-        <br><br>
-
-        <label for="number">Phone: &nbsp&nbsp&nbsp&nbsp &nbsp </label>
-        <input type="text" id="number" name="number" placeholder="first" required>
-        <br><br>
-
-        <label for="mail">E-Mail: &nbsp &nbsp&nbsp&nbsp </label>
-        <input type="email" id="mail" name="mail" placeholder="E-Mail" required>
-        <br><br>
-
-        <label for="message">Message: &nbsp&nbsp </label>
-        <input type="text" id="message" name="message" style="width: 175px;" style="width: 175px;" placeholder="Inquiries here: " required>
-
-        <div class="contactbuttons">
-            <button>Send Email</button>
-        </div>
-    </div>
-  
+  <script src="contact.js"></script>
 
     <div id="sidebar">
-      <img class="companyimage" src="pictures/JCPresley.png" />
+      <img class="companyimage" src="pictures/JCPresley2.png" />
 
       <div class="side-panel">
         <div class="buttons">
@@ -74,25 +88,26 @@
         <div class="buttons2">
           <a href="https://www.facebook.com" target="_self">
             <button>
-              <img src="pictures/Facebook Logo.png" alt="Facebook" />
+              <i class="fa-brands fa-facebook fa-4x"></i>
             </button>
           </a>
 
           <a href="https://www.instagram.com" target="_self">
             <button>
-              <img src="pictures/Instagram Logo.png" alt="Instagram" />
+              <i class="fa-brands fa-instagram fa-4x"></i>
             </button>
           </a>
 
           <a href="https://www.twitter.com" target="_self">
             <button>
-              <img src="pictures/Twitter Logo.png" alt="Instagram" />
+              <i class="fa-brands fa-twitter fa-4x"></i>
             </button>
           </a>
         </div>
       </div>
-</div>
+    </div>
 
+  <script src="contact.js"></script>
 
   </body>
 </html>
