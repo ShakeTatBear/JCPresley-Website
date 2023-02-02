@@ -1,0 +1,118 @@
+body, head, html {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(pictures/blackfog.jpg);
+    background-repeat: repeat;
+        height: 100%;
+        width: 100%;
+    background-position: center;
+    background-size:cover;
+    position: absolute;
+    }
+
+    
+#sidebar {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 20px;
+    height: 100%;
+    width: 320px;
+    background-color: #fff;
+    color: #fff;
+    padding: 5px;
+}
+
+
+.companyimage {
+    width: 280px;
+    height: 150px;
+    margin-top: 0;
+}
+
+.side-panel {
+    width: 150px;
+    margin-left: 75px;
+    margin-top: 85%;
+}
+
+.buttons button {
+    border: none;
+    display: block;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    margin-bottom: 5px;
+    margin-left: 30%;
+    margin-top: 30%;
+    height: 20px;
+    width: 75px;
+    cursor: pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+button:hover {
+    color: #000;
+    background-color: #fff;
+    transition-duration: 0.25s;
+}
+
+.side-panel a {
+    text-decoration: none;
+}
+
+.social-panel {
+    margin-top: 100%;
+ 
+    margin-left: 25px;
+
+    padding-top: 30%;
+}
+
+
+
+.buttons2 button, img {
+    border: none;
+    height: 30px;
+    width: 30px;
+    margin-left: 25px;
+    bottom: 0;
+    left: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.homeimages{
+    display: block;
+    margin-left: 19.5%;
+    min-width: 600px;
+    left: 50%;
+    top:  50%;
+
+   
+}
+
+.homeimages img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    object-fit:cover;
+   
+    height: 340px;
+    width: 340px;
+    border-radius: 20px;
+   
+
+}
